@@ -1,5 +1,6 @@
 body {
-    color: blue;
+    color: #333;
+    background: #666;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -9,10 +10,10 @@ body {
 
 #container {
     width: 70%;
-    padding: 1em;
+    min-height: 100vh;
     text-align: left;
-    border: 1pc solid #ddd;
     margin: 0 auto;
+    background: #eee;
 }
 
 #container h1 {
@@ -25,11 +26,22 @@ body {
     color: #fff;
     font-weight: 700;
     margin: 0;
-    padding: 0.5em;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#cabecera img {
+    margin-right: 10px;
 }
 
 #cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: 400;
     font-size: 0.8em;
+}
+
+#post {
+    padding: 1em;
 }
